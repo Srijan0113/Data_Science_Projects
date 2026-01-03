@@ -1,2 +1,0 @@
-Student Performance Analysis
-Analyzed student performance data using Python and Pandas; performed data cleaning, feature engineering, and exploratory data analysis to extract academic insights.
