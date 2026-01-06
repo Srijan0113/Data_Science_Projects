@@ -1,0 +1,17 @@
+match_id,season,city,team1,team2,toss_winner,toss_decision,winner,player_of_match
+1,2019,Hyderabad,SRH,RCB,SRH,bat,SRH,David Warner
+2,2019,Chennai,CSK,MI,CSK,bowl,CSK,MS Dhoni
+3,2019,Mumbai,MI,RCB,RCB,bat,MI,Hardik Pandya
+4,2019,Delhi,DC,KKR,KKR,bowl,DC,Shikhar Dhawan
+5,2020,Dubai,MI,CSK,MI,bat,MI,Rohit Sharma
+6,2020,Abu Dhabi,RCB,SRH,SRH,bowl,SRH,Rashid Khan
+7,2020,Sharjah,DC,MI,MI,bat,DC,Shreyas Iyer
+8,2020,Dubai,KKR,CSK,CSK,bowl,CSK,Ravindra Jadeja
+9,2021,Chennai,CSK,DC,DC,bowl,CSK,Faf du Plessis
+10,2021,Mumbai,MI,RCB,MI,bat,RCB,Glenn Maxwell
+11,2021,Ahmedabad,RR,PBKS,PBKS,bowl,RR,Sanju Samson
+12,2021,Delhi,DC,SRH,SRH,bat,DC,Rishabh Pant
+13,2022,Chennai,CSK,DC,DC,bowl,CSK,Faf du Plessis
+14,2022,Mumbai,MI,RCB,MI,bat,RCB,Glenn Maxwell
+15,2022,Ahmedabad,RR,PBKS,PBKS,bowl,RR,Sanju Samson
+16,2022,Delhi,DC,SRH,SRH,bat,DC,Rishabh Pant
