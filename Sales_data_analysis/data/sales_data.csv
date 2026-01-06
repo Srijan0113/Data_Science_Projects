@@ -1,0 +1,13 @@
+order_id,order_date,region,product,quantity,unit_price
+1001,2023-01-05,North,Laptop,2,55000
+1002,2023-01-08,South,Mobile,5,18000
+1003,2023-01-15,East,Tablet,3,25000
+1004,2023-02-02,West,Laptop,1,56000
+1005,2023-02-10,North,Mobile,4,17500
+1006,2023-02-18,South,Laptop,2,54000
+1007,2023-03-01,East,Mobile,6,18500
+1008,2023-03-12,West,Tablet,2,26000
+1009,2023-03-20,North,Laptop,3,54500
+1010,2023-04-05,South,Tablet,4,25500
+1011,2023-04-14,East,Laptop,1,57000
+1012,2023-04-22,West,Mobile,7,19000
