@@ -1,4 +1,4 @@
-Netflix Movies & TV Shows Data Analysis
+## Netflix Movies & TV Shows Data Analysis
 
 ## Project Overview
 
