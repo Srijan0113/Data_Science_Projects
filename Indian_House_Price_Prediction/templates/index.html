@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Indian Real Estate Price Predictor</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+
+<div class="container">
+    <h1>Indian Real Estate Price Prediction</h1>
+    <form action="/predict" method="POST">
+
+        <div class="grid">
+
+            <select name="State">
+                {% for state in states %}
+                <option value="{{ state }}">{{ state }}</option>
+                {% endfor %}
+            </select>
+
+            <input type="text" name="City" placeholder="City" required>
+            <input type="text" name="Locality" placeholder="Locality" required>
+
+            <select name="Property_Type">
+                {% for p in property_types %}
+                <option value="{{ p }}">{{ p }}</option>
+                {% endfor %}
+            </select>
+
+            <input type="number" name="BHK" placeholder="BHK" required>
+            <input type="number" name="Size_in_SqFt" placeholder="Size (SqFt)" required>
+            <input type="number" name="Year_Built" placeholder="Year Built" required>
+
+            <select name="Furnished_Status">
+                {% for f in furnished_status %}
+                <option value="{{ f }}">{{ f }}</option>
+                {% endfor %}
+            </select>
+
+            <input type="number" name="Floor_No" placeholder="Floor No" required>
+            <input type="number" name="Total_Floors" placeholder="Total Floors" required>
+            <input type="number" name="Age_of_Property" placeholder="Age of Property" required>
+            <input type="number" name="Nearby_Schools" placeholder="Nearby Schools" required>
+            <input type="number" name="Nearby_Hospitals" placeholder="Nearby Hospitals" required>
+
+            <input type="text" name="Public_Transport_Accessibility" placeholder="Transport Accessibility" required>
+            <input type="text" name="Parking_Space" placeholder="Parking Space (Yes/No)" required>
+            <input type="text" name="Security" placeholder="Security (Yes/No)" required>
+            <input type="text" name="Amenities" placeholder="Amenities (comma separated)" required>
+
+            <select name="Facing">
+                {% for f in facing_options %}
+                <option value="{{ f }}">{{ f }}</option>
+                {% endfor %}
+            </select>
+
+            <select name="Owner_Type">
+                {% for o in owner_types %}
+                <option value="{{ o }}">{{ o }}</option>
+                {% endfor %}
+            </select>
+
+            <select name="Availability_Status">
+                {% for a in availability_status %}
+                <option value="{{ a }}">{{ a }}</option>
+                {% endfor %}
+            </select>
+
+        </div>
+
+        <button type="submit">Predict Price</button>
+    </form>
+</div>
+
+</body>
+</html>

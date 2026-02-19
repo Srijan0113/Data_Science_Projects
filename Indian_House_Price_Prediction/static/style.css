@@ -1,0 +1,101 @@
+body {
+    margin: 0;
+    font-family: 'Segoe UI', sans-serif;
+    background: linear-gradient(135deg, #0f0c29, #302b63, #24243e);
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.container {
+    background: rgba(255, 255, 255, 0.05);
+    backdrop-filter: blur(20px);
+    padding: 40px;
+    border-radius: 20px;
+    width: 90%;
+    max-width: 1100px;
+    box-shadow: 0 0 40px rgba(0,0,0,0.6);
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.subtitle {
+    text-align: center;
+    margin-bottom: 30px;
+    color: #ccc;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 15px;
+}
+
+input, select {
+    padding: 12px;
+    border-radius: 12px;
+    border: 1px solid rgba(255,255,255,0.1);
+    outline: none;
+    background: rgba(255,255,255,0.08);
+    color: white;
+    appearance: none;
+    transition: 0.3s ease;
+}
+
+select {
+    background-image: url("data:image/svg+xml;utf8,<svg fill='white' height='20' viewBox='0 0 24 24' width='20' xmlns='http://www.w3.org/2000/svg'><path d='M7 10l5 5 5-5z'/></svg>");
+    background-repeat: no-repeat;
+    background-position: right 10px center;
+    background-size: 18px;
+}
+
+input:focus, select:focus {
+    border: 1px solid #7f5af0;
+    box-shadow: 0 0 15px rgba(127, 90, 240, 0.6);
+}
+
+button {
+    margin-top: 25px;
+    width: 100%;
+    padding: 15px;
+    border: none;
+    border-radius: 12px;
+    font-size: 16px;
+    background: linear-gradient(45deg, #7f5af0, #2cb67d);
+    color: white;
+    cursor: pointer;
+    transition: 0.3s ease;
+}
+
+button:hover {
+    transform: scale(1.05);
+    box-shadow: 0 0 15px #7f5af0;
+}
+
+.price {
+    text-align: center;
+    font-size: 48px;
+    margin-top: 30px;
+    color: #2cb67d;
+}
+
+.sub-price {
+    text-align: center;
+    color: #aaa;
+    font-size: 18px;
+}
+
+.back {
+    text-align: center;
+    margin-top: 30px;
+}
+
+.back a {
+    color: #7f5af0;
+    text-decoration: none;
+}

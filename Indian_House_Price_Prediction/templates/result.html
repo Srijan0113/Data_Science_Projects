@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Prediction Result</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+
+<div class="container">
+    <h1>Estimated Property Value</h1>
+
+    <h2 class="price">
+        ₹ {{ crore }} Crore
+    </h2>
+
+    <p class="sub-price">
+        (₹ {{ rupees }})
+    </p>
+
+    <div class="back">
+        <a href="/">Predict Another Property</a>
+    </div>
+</div>
+
+</body>
+</html>
